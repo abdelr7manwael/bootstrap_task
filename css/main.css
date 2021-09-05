@@ -1,0 +1,78 @@
+.navbar{
+    background: linear-gradient(to right,black 70%, white );
+}
+.navbar img {
+    width: 150px;
+}
+.nav-item{
+    font-weight: bold;
+    transition: all 1s;
+}
+.nav-item:hover{
+    text-decoration: underline;
+
+}
+
+.aboutUs {
+    color: white;
+    background: linear-gradient(to right, black 70%, grey);
+
+}
+
+.aboutUsHeader{
+    color:white;
+}
+
+.hr {
+    width: 40%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, black,red, black);
+}
+
+.gallery{
+    color: white;
+    background: linear-gradient(to right, black 70%, grey);
+}
+
+.gallery .nav {
+    margin: 10px auto;
+    width: 50%;
+    
+}
+
+.gallary .nav  .nav-link{
+    color: black !important;
+    font-weight: bold !important;
+    border-radius: 20px !important;
+}
+
+.site-footer
+{
+  background-color:black;
+  padding:40px 20px;
+  color:grey;
+}
+
+.site-footer h6{
+    color: white;
+    font-size:16px;
+    text-transform:uppercase;
+}
+
+.site-footer a
+{
+    color:grey;
+    text-decoration:none;
+}
+.site-footer a:hover
+{
+  color:lightblue;
+  
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+ 
