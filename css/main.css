@@ -30,21 +30,109 @@
     background: linear-gradient(to right, black,red, black);
 }
 
-.gallery{
+#gallary{
+    width: 100%;
+    background-image: linear-gradient(to right, #111 70%, #bbb);
+        padding: 50px 0px;
+    margin-bottom: 50px;
+}
+#gallary>h1{
+    text-align:center;
     color: white;
-    background: linear-gradient(to right, black 70%, grey);
+    text-transform: capitalize;
 }
 
-.gallery .nav {
-    margin: 10px auto;
+#gallary .hr1{
     width: 50%;
-    
+    height: 2px;
+    background: linear-gradient(to right, black,red, black);
+    border-radius: 95%;
+    margin: auto;
 }
 
-.gallary .nav  .nav-link{
+
+#gallary .container .nav-pills{
+    text-transform: capitalize;
+    margin-top: 75px ;
+    border: 1px solid black ;
+    border-radius: 20px;
+
+
+}
+#gallary .container .nav-pills .nav-item {
     color: black !important;
-    font-weight: bold !important;
-    border-radius: 20px !important;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: .5s all;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#gallary .container .nav-pills .nav-item:hover{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.active1{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#gallary .container > div{
+    display: none;
+}
+
+#gallary .container .show1{
+    display: block;
+}
+
+
+.nav-pills .nav-item a:hover{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+}
+
+#gallary .container .box{
+margin-top: 50px;
+height: 250px;
+position: relative;
+border-radius: 50px;
+overflow: hidden;
+cursor: pointer;
+}
+
+#gallary .container .box::before{
+    content: 'Branding _Illustration';
+    display: flex;
+    font-size: 25px;
+    font-family: monospace;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+    color: rgb(0, 47, 255);
+    top: 100%;
+    right: 100%;
+    background: linear-gradient(to right, #111 70%, #bbb);
+    opacity: .9;
+    transition: .5s all;
+}
+
+#gallary .container .box:hover::before{
+    top: 0;
+    right: 0;
+}
+
+#gallary .container .box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
 }
 
 .site-footer
